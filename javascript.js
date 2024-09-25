@@ -56,4 +56,4 @@ for (i = 1; i <= 5; i++){
 
 console.log(`Results:`)
 console.log(`Your Score: ${humanScore}`)
-console.log(`Computer Score: ${computerScore}`) //u stupid
+console.log(`Computer Score: ${computerScore}`) //u stupid lol
