@@ -29,14 +29,8 @@ function playRound(humanChoice, computerChoice){
     } else if (humanChoice.toLowerCase() === 'scissors' && computerChoice.toLowerCase() === 'paper'){
         humanScore++;
         return 'You win! Scissors Beats Paper';
-    } else if (computerChoice.toLowerCase() === 'rock' && humanChoice.toLowerCase() === 'scissors'){
-        computerScore++;
-        return 'You lose! Rock Beats Scissors';
-    } else if (computerChoice.toLowerCase() === 'paper' && humanChoice.toLowerCase() === 'rock'){
-        computerScore++;
-        return 'You lose! Paper Beats Rock';
-    } else if  (computerChoice.toLowerCase === 'scissors' && humanChoice.toLowerCase() === 'paper'){
-        computerScore++;
+    } else {
+        computerScore ++
         return 'You lose! Scissors Beats Paper';
     }
 }
